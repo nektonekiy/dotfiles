@@ -1,0 +1,25 @@
+$bg: rgba(#000000,0.4) ;
+$fg: #ffffff;
+$shadow: rgba(#000000,0.3);
+$border_col: rgba(#000000,0.41);
+
+* {
+	background: transparent;
+	color: $fg;
+	font-family: MiSans;
+	font-size: 17px;
+	text-shadow: none;
+}
+
+
+.bar {
+	background-color: $bg;
+	border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	border: 1px solid $border_col;
+}
+
+.main-container {
+	margin: 7px 100px 7px 100px;
+}
