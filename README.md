@@ -2,7 +2,7 @@
 
 ## preview
 
-![](PREVIEW.png?raw=true)
+![](preview.png?raw=true)
 
 ## Software
 - **alacritty** - terminal
