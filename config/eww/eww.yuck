@@ -1,5 +1,5 @@
 (defpoll weather :interval "1s"
-	`curl wttr.in/Nadym?format="%c+%t"`)
+	`curl wttr.in/?format="%c+%t"`)
 
 (defpoll time :interval "1s"
 	`date +"%I:%M:%S"`)
