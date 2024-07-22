@@ -1,0 +1,11 @@
+require('core.plug')
+require('core.colors')
+require('core.options')
+
+require('plugins.filetree')
+require('plugins.syntax')
+require('plugins.lsp')
+require('plugins.cmp')
+require('plugins.search')
+require('plugins.term')
+require('plugins.dashboard')
