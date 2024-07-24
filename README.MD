@@ -13,7 +13,7 @@
 > This is an example for Fedora Linux, if u use another system you need to use their commands
 
 ```
-sudo dnf install zsh neovim bat lsd gcc git nodejs
+sudo dnf install zsh neovim bat lsd gcc nodejs
 ```
 
 ## install langservers for neovim
@@ -26,6 +26,14 @@ sudo npm -g i vscode-langservers-extracted typescript typescript-language-server
 
 ```
 chsh -s /usr/bin/zsh
+```
+
+## install zsh plugins
+```
+mkdir ~/.zsh-plugins
+git clone https://github.com/geometry-zsh/geometry ~/.zsh-plugins/geometry
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh-plugins/syntax
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/autosuggestions
 ```
 
 ## copy dotfiles
