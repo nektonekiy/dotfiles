@@ -25,12 +25,10 @@ require("lazy").setup({
 	'Mofiqul/adwaita.nvim',
 	'voldikss/vim-floaterm',
 	'neovim/nvim-lspconfig',
+	'm4xshen/autoclose.nvim',
+	'windwp/nvim-ts-autotag',
 	'preservim/nerdcommenter',
    	'kyazdani42/nvim-web-devicons',
 	'nvim-treesitter/nvim-treesitter',
 	{'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = 'nvim-lua/plenary.nvim'},
-	{
-		'nvimdev/dashboard-nvim',
-		dependencies = 'nvim-tree/nvim-web-devicons'
-	}
 })
