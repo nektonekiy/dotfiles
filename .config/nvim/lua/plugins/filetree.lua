@@ -1,11 +1,25 @@
-vim.g.netrw_liststyle = 3
-vim.g.netrw_banner = 0
-vim.g.netrw_browse_split = 3
-require'netrw'.setup{
-  icons = {
-    directory = '', -- Directory icon
-    file = '', -- File icon
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- optionally enable 24-bit colour
+vim.opt.termguicolors = true
+
+-- empty setup using defaults
+require("nvim-tree").setup()
+
+-- OR setup with some options
+require("nvim-tree").setup({
+  sort = {
+    sorter = "case_sensitive",
   },
-  use_devicons = true, -- Uses nvim-web-devicons if true, otherwise use the file icon specified above
-  mappings = {}, -- Custom key mappings
-}
+  view = {
+    width = 30,
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = true,
+  },
+})

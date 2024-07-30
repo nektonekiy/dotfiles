@@ -1,4 +1,3 @@
-vim.opt.termguicolors = true
 vim.opt.relativenumber = true
 vim.opt.autoindent = true
 vim.opt.tabstop = 4
