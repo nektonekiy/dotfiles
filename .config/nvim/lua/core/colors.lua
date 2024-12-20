@@ -1,2 +1,2 @@
 vim.opt.termguicolors = true
-vim.cmd.colorscheme("adwaita")
+vim.cmd.colorscheme("github_dark_high_contrast")
