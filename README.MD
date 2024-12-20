@@ -1,9 +1,10 @@
 # software
 
-- [zsh](https://github.com/zsh-users/zsh) - perfect shell (configured without ohmyzsh(bloat))
-- [nvim](https://github.com/neovim/neovim) - perfect text editor
+- [zsh](https://github.com/zsh-users/zsh) - shell (configured without ohmyzsh (bloat))
+- [nvim](https://github.com/neovim/neovim) - text & code editor
 - [bat](https://github.com/sharkdp/bat) - cat alternative with syntax highlighting
-- [lsd](https://github.com/lsd-rs/lsd) - ls with icons
+- [lsd](https://github.com/lsd-rs/lsd) - ls alternative with icons
+- [alacritty](https://github.com/alacritty/alacritty) - terminal emulator 
 
 # installation
 
