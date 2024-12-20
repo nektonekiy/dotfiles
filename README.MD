@@ -13,7 +13,7 @@
 > This is an example for Fedora Linux, if u use another system you need to use their commands
 
 ```
-sudo dnf install zsh neovim bat lsd gcc nodejs
+sudo dnf install zsh neovim alacritty bat lsd gcc nodejs
 ```
 
 ## install langservers for neovim

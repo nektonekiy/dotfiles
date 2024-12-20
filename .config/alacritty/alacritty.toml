@@ -1,0 +1,40 @@
+[font]
+normal = { family = "Fira Code Nerd Font", style = "Regular" }
+bold = { family = "Fira Code Nerd Font", style = "Bold" }
+italic = { family = "Fira Code Nerd Font", style = "Italic" }
+bold_italic = { family = "Fira Code Nerd Font", style = "Bold Italic" }
+size = 13
+
+[window]
+padding = { x = 20, y = 20 }
+opacity = 0.9
+
+# (Github Dark High Contrast) Colors for Alacritty
+
+[colors.primary]
+background = '#0a0c10'
+foreground = '#f0f3f6'
+
+[colors.cursor]
+text = '#0a0c10'
+cursor = '#f0f3f6'
+
+[colors.normal]
+black = '#7a828e'
+red = '#ff9492'
+green = '#26cd4d'
+yellow = '#f0b72f'
+blue = '#71b7ff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+[colors.bright]
+black = '#9ea7b3'
+red = '#ffb1af'
+green = '#4ae168'
+yellow = '#f7c843'
+blue = '#91cbff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
