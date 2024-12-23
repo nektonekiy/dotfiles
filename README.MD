@@ -42,7 +42,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/au
 git clone https://github.com/nektonekiy/dotfiles.git
 cd dotfiles
 cp .zshrc ~/
-cp -r .config/* ~/config/ 
+cp -r .config/* ~/.config/ 
 ```
 
 
