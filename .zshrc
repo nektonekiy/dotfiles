@@ -16,8 +16,9 @@ source $ZSHPLUG/autosuggestions/zsh-autosuggestions.zsh
 source $ZSHPLUG/syntax/zsh-syntax-highlighting.zsh
 
 # geometry-zsh setup
-GEOMETRY_PROMPT=(geometry_path)
-GEOMETRY_RPROMPT+=(geometry_exec_time)
+GEOMETRY_EXITCODE_COLOR="red"
+GEOMETRY_PROMPT=(geometry_exitcode geometry_path)
+GEOMETRY_PPROMPT=(geometry_git)
 
 # aliases
 alias ls=lsd
