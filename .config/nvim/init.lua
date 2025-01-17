@@ -1,7 +1,6 @@
 require('core.plug')
 require('core.colors')
 require('core.options')
-
 require('plugins.filetree')
 require('plugins.syntax')
 require('plugins.lsp')
