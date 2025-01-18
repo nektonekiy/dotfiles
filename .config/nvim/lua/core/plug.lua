@@ -23,6 +23,7 @@ require("lazy").setup({
 	'hrsh7th/cmp-nvim-lsp',
 	'voldikss/vim-floaterm',
 	'neovim/nvim-lspconfig',
+	'airblade/vim-gitgutter',
 	'm4xshen/autoclose.nvim',
 	'windwp/nvim-ts-autotag',
 	'nvim-tree/nvim-tree.lua',
