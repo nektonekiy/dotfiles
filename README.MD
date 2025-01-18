@@ -1,10 +1,11 @@
 # software
 
-- [zsh](https://github.com/zsh-users/zsh) - shell (configured without ohmyzsh (bloat))
-- [nvim](https://github.com/neovim/neovim) - text & code editor
+- [alacritty](https://github.com/alacritty/alacritty) - terminal emulator 
 - [bat](https://github.com/sharkdp/bat) - cat alternative with syntax highlighting
 - [lsd](https://github.com/lsd-rs/lsd) - ls alternative with icons
-- [alacritty](https://github.com/alacritty/alacritty) - terminal emulator 
+- [nvim](https://github.com/neovim/neovim) - text & code editor
+- [tmux](https://github.com/tmux/tmux) - terminal multiplexer
+- [zsh](https://github.com/zsh-users/zsh) - shell (configured without ohmyzsh (bloat))
 
 # installation
 
@@ -30,11 +31,18 @@ chsh -s /usr/bin/zsh
 ```
 
 ## install zsh plugins
+
 ```
 mkdir ~/.zsh-plugins
 git clone https://github.com/geometry-zsh/geometry ~/.zsh-plugins/geometry
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh-plugins/syntax
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/autosuggestions
+```
+
+## install [tpm](https://github.com/tmux-plugins/tpm) (tmux plugin manager)
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ## copy dotfiles
@@ -43,6 +51,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/au
 git clone https://github.com/nektonekiy/dotfiles.git
 cd dotfiles
 cp .zshrc ~/
+cp .tmux.conf ~/
 cp -r .config/* ~/.config/ 
 ```
 
