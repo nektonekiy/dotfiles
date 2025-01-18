@@ -21,15 +21,18 @@ require("lazy").setup({
 	'hrsh7th/cmp-buffer',
 	'hrsh7th/cmp-cmdline',
 	'hrsh7th/cmp-nvim-lsp',
-	'voldikss/vim-floaterm',
 	'neovim/nvim-lspconfig',
 	'airblade/vim-gitgutter',
 	'm4xshen/autoclose.nvim',
 	'windwp/nvim-ts-autotag',
-	'nvim-tree/nvim-tree.lua',
 	'preservim/nerdcommenter',
+	'nvim-tree/nvim-tree.lua',
+	"nvim-tree/nvim-web-devicons",
 	'projekt0n/github-nvim-theme',
-   	'kyazdani42/nvim-web-devicons',
 	'nvim-treesitter/nvim-treesitter',
-	{'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = 'nvim-lua/plenary.nvim'},
+	{
+		'nvim-telescope/telescope.nvim',
+		tag = '0.1.6',
+		dependencies = 'nvim-lua/plenary.nvim'
+	}
 })
