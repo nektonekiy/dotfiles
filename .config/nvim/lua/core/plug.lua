@@ -15,6 +15,7 @@ require("lazy").setup({
 	'ap/vim-css-color',
 	'hrsh7th/nvim-cmp',
 	'hrsh7th/cmp-path',
+	'junegunn/goyo.vim',
 	'hrsh7th/cmp-vsnip',
 	'hrsh7th/vim-vsnip',
 	'tpope/vim-surround',

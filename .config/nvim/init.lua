@@ -1,9 +1,11 @@
 require('core.plug')
+require('core.binds')
 require('core.colors')
 require('core.options')
-require('plugins.filetree')
-require('plugins.syntax')
+
 require('plugins.lsp')
 require('plugins.cmp')
+require('plugins.syntax')
 require('plugins.search')
+require('plugins.filetree')
 require('plugins.autoclosing')
